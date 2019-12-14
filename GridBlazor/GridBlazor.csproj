@@ -5,15 +5,23 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <GenerateEmbeddedFilesManifest>True</GenerateEmbeddedFilesManifest>
     <EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
-    <Version>1.3.2</Version>
+    <Version>0.1.0</Version>
     <Title>GridBlazor</Title>
-    <Description>Grid components for Blazor</Description>
+    <Description>Grid components for Blazor based on GridBlazor provided by Gustau Navarro @ https://github.com/gustavnavar/Grid.Blazor</Description>
     <Summary>Grid components for Blazor</Summary>
-    <Authors>Gustau Navarro</Authors>
+    <Authors>Deval Ringwala</Authors>
     <PackageTags>grid blazor</PackageTags>
-    <PackageProjectUrl>https://github.com/gustavnavar/Grid.Blazor</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/dringwala/Grid.Blazor</PackageProjectUrl>
     <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
-    <PackageReleaseNotes>Supports .NET Core 3.1</PackageReleaseNotes>
+    <PackageReleaseNotes>Spin from GridBlazor
+Added support for Multi select
+Added access to selected items collection</PackageReleaseNotes>
+    <PackageId>GridBlazorPlus</PackageId>
+    <Company>Deval Ringwala</Company>
+    <RepositoryUrl>https://github.com/dringwala/Grid.Blazor</RepositoryUrl>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
+    <Product>GridBlazorPlus</Product>
   </PropertyGroup>
 
   <ItemGroup>

@@ -5,15 +5,20 @@
     <GenerateEmbeddedFilesManifest>True</GenerateEmbeddedFilesManifest>
     <EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
     <Product>GridMvc</Product>
-    <PackageId>GridMvcCore</PackageId>
-    <Version>2.11.2</Version>
+    <PackageId>GridMvcCorePlus</PackageId>
+    <Version>0.1.0</Version>
     <Title>GridMvc</Title>
-    <Description>ASP.NET MVC Grid component</Description>
+    <Description>ASP.NET MVC Grid component  based on GridBlazor provided by Gustau Navarro @ https://github.com/gustavnavar/Grid.Blazor</Description>
     <Summary>ASP.NET MVC Grid component</Summary>
-    <Authors>Gustau Navarro</Authors>
+    <Authors>Deval Ringwala</Authors>
     <PackageTags>grid mvc</PackageTags>
-    <PackageProjectUrl>https://github.com/gustavnavar/Grid.Blazor</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/dringwala/Grid.Blazor</PackageProjectUrl>
     <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
+    <Company>Deval Ringwala</Company>
+    <RepositoryUrl>https://github.com/dringwala/Grid.Blazor</RepositoryUrl>
+    <PackageReleaseNotes>Spin from Grid Shared</PackageReleaseNotes>
+    <AssemblyVersion>0.0.1.0</AssemblyVersion>
+    <FileVersion>0.0.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
