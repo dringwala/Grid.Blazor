@@ -5,7 +5,7 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <GenerateEmbeddedFilesManifest>True</GenerateEmbeddedFilesManifest>
     <EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
-    <Version>0.1.0</Version>
+    <Version>0.2.0</Version>
     <Title>GridBlazor</Title>
     <Description>Grid components for Blazor based on GridBlazor provided by Gustau Navarro @ https://github.com/gustavnavar/Grid.Blazor</Description>
     <Summary>Grid components for Blazor</Summary>
@@ -13,14 +13,12 @@
     <PackageTags>grid blazor</PackageTags>
     <PackageProjectUrl>https://github.com/dringwala/Grid.Blazor</PackageProjectUrl>
     <PackageLicenseExpression>LGPL-2.1-only</PackageLicenseExpression>
-    <PackageReleaseNotes>Spin from GridBlazor
-Added support for Multi select
-Added access to selected items collection</PackageReleaseNotes>
+    <PackageReleaseNotes>Merged Clear all filters functionality</PackageReleaseNotes>
     <PackageId>GridBlazorPlus</PackageId>
     <Company>Deval Ringwala</Company>
     <RepositoryUrl>https://github.com/dringwala/Grid.Blazor</RepositoryUrl>
-    <AssemblyVersion>0.0.1.0</AssemblyVersion>
-    <FileVersion>0.0.1.0</FileVersion>
+    <AssemblyVersion>0.0.2.0</AssemblyVersion>
+    <FileVersion>0.0.2.0</FileVersion>
     <Product>GridBlazorPlus</Product>
   </PropertyGroup>
 
