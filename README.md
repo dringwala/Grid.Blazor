@@ -1,6 +1,6 @@
 # Grid.Blazor
 
-A fork from: https://gridmvc.codeplex.com/
+A fork from: https://github.com/gustavnavar/Grid.Blazor
 
 It supports .NET Core 3.1
 
@@ -15,8 +15,8 @@ It supports .NET Core 3.1
 - Blazor Server App require these changes on to the **_Host.cshtml** file for .Net Core 3.1:
     
     ```html
-        <link href="_content/GridBlazor/css/gridblazor.min.css" rel="stylesheet" />
-        <script src="_content/GridBlazor/js/gridblazor.js"></script>
+        <link href="_content/GridBlazorPlus/css/gridblazor.min.css" rel="stylesheet" />
+        <script src="_content/GridBlazorPlus/js/gridblazor.js"></script>
     ```
 
 - Blazor WebAssembly projects require to use a new constructor of the **GridClient** object including an HttpClient object from Dependency Injection for .Net Core 3.1:
